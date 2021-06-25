@@ -1,3 +1,3 @@
-module global_ip
+module global-ip
 
 go 1.15
