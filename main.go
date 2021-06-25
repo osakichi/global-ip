@@ -53,7 +53,7 @@ func main() {
 		os.Exit(0)
 	}()
 
-	http.HandleFunc("/api/global_ip", handlerFunc)
+	http.HandleFunc("/api/global-ip", handlerFunc)
 
 	log.Print(INFO, "server start")
 	err := http.ListenAndServe(":8008", nil)
